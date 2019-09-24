@@ -1,6 +1,5 @@
 package Arrays;
 
-import mathematics.Palindrome;
 
 import java.util.Stack;
 

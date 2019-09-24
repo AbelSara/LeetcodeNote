@@ -27,7 +27,7 @@ public class RomanToInteger {
                     }
                     break;
                 case 'V':
-                    result+=5;
+                    result += 5;
                     break;
                 case 'X':
                     if (i + 1 < strArr.length) {
@@ -45,7 +45,7 @@ public class RomanToInteger {
                     }
                     break;
                 case 'L':
-                    result+=50;
+                    result += 50;
                     break;
                 case 'C':
                     if (i + 1 < strArr.length) {
@@ -63,10 +63,10 @@ public class RomanToInteger {
                     }
                     break;
                 case 'D':
-                    result+=500;
+                    result += 500;
                     break;
                 case 'M':
-                    result+=1000;
+                    result += 1000;
                     break;
             }
         }

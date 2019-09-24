@@ -16,13 +16,13 @@ public class LongestWordInDictionary {
         for (String word : words) {
             trie.insert(word);
         }
-        for(String word:words){
-            if(trie.isBuild(word)){
-                if(word.length()>longestLength){
-                    longestWord=word;
-                    longestLength=word.length();
-                }else if(word.length()==longestLength){
-                    longestWord=word.compareTo(longestWord)<0?word:longestWord;
+        for (String word : words) {
+            if (trie.isBuild(word)) {
+                if (word.length() > longestLength) {
+                    longestWord = word;
+                    longestLength = word.length();
+                } else if (word.length() == longestLength) {
+                    longestWord = word.compareTo(longestWord) < 0 ? word : longestWord;
                 }
             }
         }
@@ -58,13 +58,13 @@ class Trie {
     }
 
     public boolean isBuild(String word) {
-        char[] wordArray=word.toCharArray();
-        TrieNode p=root;
-        for(char c:wordArray){
-            if(false==p.next[c-'a'].isWord) {
+        char[] wordArray = word.toCharArray();
+        TrieNode p = root;
+        for (char c : wordArray) {
+            if (false == p.next[c - 'a'].isWord) {
                 return false;
             }
-            p=p.next[c-'a'];
+            p = p.next[c - 'a'];
         }
         return true;
     }

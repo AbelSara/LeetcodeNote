@@ -1,15 +1,11 @@
 package Arrays;
 
 /**
- * Created by zhh on 2019/9/18.
+ * Author:Honghan Zhu
  */
 public class Main {
     public static void main(String[] args) {
-        PlusOne plusOne=new PlusOne();
-        int[] array=new int[]{1,2,3};
-        array=plusOne.plusOne(array);
-        for(int num:array){
-            System.out.println(num);
-        }
+        int a[]=new int[]{0,0,1,1,1,2,2,3,3,4};
+        System.out.println(new RemoveDuplicatesFromSortedArray().removeDuplicates(a));
     }
 }

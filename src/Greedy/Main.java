@@ -1,7 +1,7 @@
 package Greedy;
 
 /**
- * Created by zhh on 2019/9/22.
+ * Author: Honghan Zhu
  */
 public class Main {
     public static void main(String[] args) {

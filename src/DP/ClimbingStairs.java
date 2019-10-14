@@ -1,9 +1,5 @@
 package DP;
 
-import mathematics.Palindrome;
-
-import java.util.Arrays;
-
 /**
  * Created by zhh on 2019/9/27.
  */

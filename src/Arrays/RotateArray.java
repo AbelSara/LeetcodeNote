@@ -1,9 +1,9 @@
 package Arrays;
 
 /**
- * Author:Honghan Zhu
- * leetcode:189
- * Grade:Easy
+ * @author: Honghan Zhu
+ * @leetcode: 189
+ * @grade: easy
  */
 public class RotateArray {
     public void rotate(int[] nums, int k) {

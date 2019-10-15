@@ -1,7 +1,9 @@
 package BinarySearch;
 
 /**
- * Created by zhh on 2019/9/24.
+ * @author: Honghan Zhu
+ * @leetcode: 35
+ * @grade: easy
  */
 public class SearchInsertPosition {
     public int searchInsert(int[] nums, int target) {

@@ -2,9 +2,9 @@ package Trie;
 
 
 /**
- * Author:Honghan Zhu
- * leetcode:720
- * Grade:easy
+ * @author: Honghan Zhu
+ * @leetcode: 720
+ * @grade: easy
  */
 public class LongestWordInDictionary {
     String longestWord = "";

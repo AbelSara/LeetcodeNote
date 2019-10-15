@@ -1,10 +1,9 @@
 package String;
 
-
 /**
- * Author:Honghan Zhu
- * leetcode:58
- * Grade:easy
+ * @author: Honghan Zhu
+ * @leetcode: 58
+ * @grade: easy
  */
 public class LengthOfLastWord {
     public int lengthOfLastWord(String s) {

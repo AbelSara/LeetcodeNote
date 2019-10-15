@@ -1,9 +1,9 @@
 package Mathematics;
 
 /**
- * Author:Honghan Zhu
- * leetcode:69
- * Grade:easy
+ * @author: Honghan Zhu
+ * @leetcode: 69
+ * @grade: easy
  */
 public class Sqrt {
     public int mySqrt(int x) {

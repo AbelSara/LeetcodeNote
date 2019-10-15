@@ -1,9 +1,9 @@
 package String;
 
 /**
- * Author:Honghan Zhu
- * leetcode:28
- * Grade:easy
+ * @author: Honghan Zhu
+ * @leetcode: 28
+ * @grade: easy
  */
 public class ImplementStr {
     public int strStr(String haystack, String needle) {

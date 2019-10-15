@@ -1,9 +1,9 @@
 package Tree;
 
 /**
- * Author:Honghan Zhu
- * leetcode:108
- * Grade:easy
+ * @author: Honghan Zhu
+ * @leetcode: 108
+ * @grade: easy
  */
 public class ConvertSortedArrayToBinarySearchTree {
     public TreeNode sortedArrayToBST(int[] nums) {

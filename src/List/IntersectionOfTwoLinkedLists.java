@@ -1,9 +1,9 @@
 package List;
 
 /**
- * Author:Honghan Zhu
- * leetcode:160
- * Grade:easy
+ * @author: Honghan Zhu
+ * @leetcode: 160
+ * @grade: easy
  */
 public class IntersectionOfTwoLinkedLists {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {

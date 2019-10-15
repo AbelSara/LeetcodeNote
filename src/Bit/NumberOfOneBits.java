@@ -1,9 +1,9 @@
 package Bit;
 
 /**
- * Author:Honghan Zhu
- * leetcode:191
- * Grade:Easy
+ * @author: Honghan Zhu
+ * @leetcode: 191
+ * @grade: easy
  */
 public class NumberOfOneBits {
     public int hammingWeight(int n) {

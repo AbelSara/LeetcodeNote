@@ -1,9 +1,9 @@
 package Arrays;
 
 /**
- * Author:Honghan Zhu
- * leetcode:53
- * Grade:easy
+ * @author: Honghan Zhu
+ * @leetcode: 53
+ * @grade: easy
  */
 public class MaximumSubArray {
     public int maxSubArray(int[] nums) {

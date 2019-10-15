@@ -1,10 +1,10 @@
 package Arrays;
 
 /**
- * Author:Honghan Zhu
- * leetcode:121
- * Grade:easy
- * method:DP
+ * @author: Honghan Zhu
+ * @leetcode: 121
+ * @grade: easy
+ * @method: DP
  */
 public class BestTimeToBuyAndSellStock {
     public int maxProfit(int[] prices) {

@@ -1,7 +1,9 @@
 package DP;
 
 /**
- * Created by zhh on 2019/9/27.
+ * @author: Honghan Zhu
+ * @leetcode: 70
+ * @grade: easy
  */
 public class ClimbingStairs {
     public int climbStairs(int n) {

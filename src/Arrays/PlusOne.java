@@ -4,9 +4,9 @@ package Arrays;
 import java.util.Stack;
 
 /**
- * author:Honghan Zhu
- * leetcode:66
- * Grade:easy
+ * @author: Honghan Zhu
+ * @leetcode: 66
+ * @grade: easy
  */
 public class PlusOne {
     public int[] plusOne(int[] digits) {

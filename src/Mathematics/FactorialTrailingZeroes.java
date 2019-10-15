@@ -1,9 +1,9 @@
 package Mathematics;
 
 /**
- * Author:Honghan Zhu
- * leetcode:172
- * Grade:easy
+ * @author: Honghan Zhu
+ * @leetcode: 172
+ * @grade: easy
  */
 public class FactorialTrailingZeroes {
     public int trailingZeroes(int n) {

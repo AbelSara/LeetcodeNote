@@ -1,8 +1,8 @@
 package List;
 
 /**
- * Author:Honghan Zhu
- * leetcode:Support List Problem
+ * @author: Honghan Zhu
+ * @leetcode: Support List Problems
  */
 public class ListNode {
     int val;

@@ -5,9 +5,9 @@ import java.util.List;
 import java.util.Queue;
 
 /**
- * Author:Honghan Zhu
- * leetcode:107
- * Grade:easy
+ * @author: Honghan Zhu
+ * @leetcode: 107
+ * @grade: easy
  */
 public class BinaryTreeLevelOrderTraversalII {
     public List<List<Integer>> levelOrderBottom(TreeNode root) {

@@ -1,9 +1,9 @@
 package List;
 
 /**
- * Author:Honghan Zhu
- * leetcode:83
- * Grade:easy
+ * @author: Honghan Zhu
+ * @leetcode: 83
+ * @grade: easy
  */
 public class RemoveDuplicatesFromSortedList {
     public ListNode deleteDuplicates(ListNode head) {

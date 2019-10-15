@@ -1,9 +1,9 @@
 package Arrays;
 
 /**
- * Author:Honghan Zhu
- * leetcode:167
- * Grade:easy
+ * @author: Honghan Zhu
+ * @leetcode: 167
+ * @grade: easy
  */
 public class TwoSumPlus {
     public int[] twoSum(int[] numbers, int target) {

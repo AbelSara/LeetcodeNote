@@ -3,9 +3,9 @@ package Arrays;
 import java.util.Arrays;
 
 /**
- * Author:Honghan Zhu
- * leetcode:88
- * Grade:easy
+ * @author: Honghan Zhu
+ * @leetcode: 88
+ * @grade: easy
  */
 public class MergeSortedArray {
     public void merge(int[] nums1, int m, int[] nums2, int n) {

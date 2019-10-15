@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Author:Honghan Zhu
- * leetcode:118
- * Grade:easy
+ * @author: Honghan Zhu
+ * @leetcode: 118
+ * @grade: easy
  */
 public class PascalsTriangle {
     public List<List<Integer>> generate(int numRows) {

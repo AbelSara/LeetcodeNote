@@ -1,9 +1,9 @@
 package Mathematics;
 
 /**
- * Author:Honghan Zhu
- * leetcode:9
- * Grade:easy
+ * @author: Honghan Zhu
+ * @leetcode: 9
+ * @grade: easy
  */
 public class Palindrome {
     public static boolean isPalindrome(int x) {

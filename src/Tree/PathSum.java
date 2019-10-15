@@ -1,9 +1,9 @@
 package Tree;
 
 /**
- * Author:Honghan Zhu
- * leetcode:112
- * Grade:easy
+ * @author: Honghan Zhu
+ * @leetcode: 112
+ * @grade: easy
  */
 public class PathSum {
     public boolean hasPathSum(TreeNode root, int sum) {

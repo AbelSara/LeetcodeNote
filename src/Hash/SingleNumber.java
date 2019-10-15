@@ -4,9 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Author:Honghan Zhu
- * leetcode:136
- * Grade:easy
+ * @author: Honghan Zhu
+ * @leetcode: 136
+ * @grade: easy
  */
 public class SingleNumber {
     public int singleNumber(int[] nums) {

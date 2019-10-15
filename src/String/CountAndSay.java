@@ -1,7 +1,9 @@
 package String;
 
 /**
- * Created by zhh on 2019/9/24.
+ * @author: Honghan Zhu
+ * @leetcode: 38
+ * @grade: easy
  */
 public class CountAndSay {
     public String countAndSay(int n) {

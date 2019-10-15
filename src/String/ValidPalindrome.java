@@ -1,9 +1,9 @@
 package String;
 
 /**
- * Author:Honghan Zhu
- * leetcode:125
- * Grade:easy
+ * @author: Honghan Zhu
+ * @leetcode: 125
+ * @grade: easy
  */
 public class ValidPalindrome {
     public boolean isPalindrome(String s) {

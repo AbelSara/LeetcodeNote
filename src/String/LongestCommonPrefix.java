@@ -1,9 +1,11 @@
 package String;
 
 /**
- * Created by zhh on 2019/9/22.
+ * @author: Honghan Zhu
+ * @leetcode: 14
+ * @grade: easy
  */
-public class LongCommonPrefix {
+public class LongestCommonPrefix {
     public String longestCommonPrefix(String[] strs) {
         if (strs.length == 0) return "";
         StringBuilder stringBuilder = new StringBuilder();

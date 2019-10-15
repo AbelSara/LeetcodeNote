@@ -1,9 +1,9 @@
 package List;
 
 /**
- * Author:Honghan Zhu
- * leetcode:141
- * Grade:easy
+ * @author: Honghan Zhu
+ * @leetcode: 141
+ * @grade: easy
  */
 public class LinkedListCycle {
     public boolean hasCycle(ListNode head) {

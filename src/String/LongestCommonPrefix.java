@@ -1,9 +1,9 @@
 package String;
 
 /**
- * @author: Honghan Zhu
- * @leetcode: 14
- * @grade: easy
+ * @author Honghan Zhu
+ * @leetcode 14
+ * @grade easy
  */
 public class LongestCommonPrefix {
     public String longestCommonPrefix(String[] strs) {

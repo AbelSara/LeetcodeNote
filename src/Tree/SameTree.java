@@ -1,9 +1,9 @@
 package Tree;
 
 /**
- * @author: Honghan Zhu
- * @leetcode: 100
- * @grade: easy
+ * @author Honghan Zhu
+ * @leetcode 100
+ * @grade easy
  */
 public class SameTree {
     public boolean isSameTree(TreeNode p, TreeNode q) {

@@ -4,9 +4,9 @@ package Greedy;
 import java.util.Arrays;
 
 /**
- * @author: Honghan Zhu
- * @leetcode: 1029
- * @grade: easy
+ * @author Honghan Zhu
+ * @leetcode 1029
+ * @grade easy
  */
 public class TwoCityScheduling {
     public int twoCitySchedCost(int[][] costs) {

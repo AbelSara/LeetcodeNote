@@ -4,9 +4,9 @@ package Sort;
 import java.util.*;
 
 /**
- * @author: Honghan Zhu
- * @leetcode: 39
- * @grade: easy
+ * @author Honghan Zhu
+ * @leetcode 39
+ * @grade easy
  */
 public class RelativeSortArray {
     public int[] relativeSortArray(int[] arr1, int[] arr2) {

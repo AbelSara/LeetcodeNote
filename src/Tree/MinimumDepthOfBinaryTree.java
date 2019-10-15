@@ -1,9 +1,9 @@
 package Tree;
 
 /**
- * @author: Honghan Zhu
- * @leetcode: 111
- * @grade: easy
+ * @author Honghan Zhu
+ * @leetcode 111
+ * @grade easy
  */
 public class MinimumDepthOfBinaryTree {
     int minDepth = Integer.MAX_VALUE;

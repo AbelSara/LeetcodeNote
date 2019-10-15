@@ -4,9 +4,9 @@ package Stack;
 import java.util.Stack;
 
 /**
- * @author: Honghan Zhu
- * @leetcode: 20
- * @grade: easy
+ * @author Honghan Zhu
+ * @leetcode 20
+ * @grade easy
  */
 public class ValidParentheses {
     public boolean isValid(String s) {

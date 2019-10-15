@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author: Honghan Zhu
- * @leetcode: 119
- * @grade: easy
+ * @author Honghan Zhu
+ * @leetcode 119
+ * @grade easy
  */
 public class PascalsTrianglePlus {
     public List<Integer> getRow(int rowIndex) {

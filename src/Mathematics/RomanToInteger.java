@@ -1,9 +1,9 @@
 package Mathematics;
 
 /**
- * @author: Honghan Zhu
- * @leetcode: 13
- * @grade: easy
+ * @author Honghan Zhu
+ * @leetcode 13
+ * @grade easy
  */
 public class RomanToInteger {
     public int romanToInt(String s) {

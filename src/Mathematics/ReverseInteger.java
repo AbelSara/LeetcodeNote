@@ -1,9 +1,9 @@
 package Mathematics;
 
 /**
- * @author: Honghan Zhu
- * @leetcode: 7
- * @grade: easy
+ * @author Honghan Zhu
+ * @leetcode 7
+ * @grade easy
  */
 public class ReverseInteger {
     public static int reverse(int x) {

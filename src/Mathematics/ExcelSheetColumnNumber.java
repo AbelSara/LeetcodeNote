@@ -1,9 +1,9 @@
 package Mathematics;
 
 /**
- * @author: Honghan Zhu
- * @leetcode: 171
- * @grade: easy
+ * @author Honghan Zhu
+ * @leetcode 171
+ * @grade easy
  */
 public class ExcelSheetColumnNumber {
     public int titleToNumber(String s) {

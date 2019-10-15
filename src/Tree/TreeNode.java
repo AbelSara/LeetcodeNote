@@ -1,8 +1,8 @@
 package Tree;
 
 /**
- * @author: Honghan Zhu
- * @leetcode: Support Tree Problems
+ * @author Honghan Zhu
+ * @leetcode Support Tree Problems
  */
 public class TreeNode {
     int val;

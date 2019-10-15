@@ -1,9 +1,9 @@
 package Mathematics;
 
 /**
- * @author: Honghan Zhu
- * @leetcode: 168
- * @grade: easy
+ * @author Honghan Zhu
+ * @leetcode 168
+ * @grade easy
  */
 public class ExcelSheetColumnTitle {
     public String convertToTitle(int n) {

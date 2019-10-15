@@ -1,9 +1,9 @@
 package String;
 
 /**
- * @author: Honghan Zhu
- * @leetcode: 38
- * @grade: easy
+ * @author Honghan Zhu
+ * @leetcode 38
+ * @grade easy
  */
 public class CountAndSay {
     public String countAndSay(int n) {

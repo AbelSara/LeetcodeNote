@@ -1,9 +1,9 @@
 package Tree;
 
 /**
- * @author: Honghan Zhu
- * @leetcode: 104
- * @grade: easy
+ * @author Honghan Zhu
+ * @leetcode 104
+ * @grade easy
  */
 public class MaximumDepthofBinaryTree {
     int maxDepth = 0;

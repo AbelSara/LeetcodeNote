@@ -1,9 +1,9 @@
 package Bit;
 
 /**
- * @author: Honghan Zhu
- * @leetcode: 190
- * @grade: easy
+ * @author Honghan Zhu
+ * @leetcode 190
+ * @grade easy
  */
 public class ReverseBits {
     public int reverseBits(int n) {

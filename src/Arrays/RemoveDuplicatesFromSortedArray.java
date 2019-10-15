@@ -1,9 +1,9 @@
 package Arrays;
 
 /**
- * @author: Honghan Zhu
- * @leetcode: 26
- * @grade: easy
+ * @author Honghan Zhu
+ * @leetcode 26
+ * @grade easy
  */
 public class RemoveDuplicatesFromSortedArray {
     public int removeDuplicates(int[] nums) {

@@ -1,9 +1,9 @@
 package Tree;
 
 /**
- * @author: Honghan Zhu
- * @leetcode: 101
- * @grade: easy
+ * @author Honghan Zhu
+ * @leetcode 101
+ * @grade easy
  */
 public class SymmetricTree {
     public boolean isSymmetric(TreeNode root) {

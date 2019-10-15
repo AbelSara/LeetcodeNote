@@ -1,9 +1,9 @@
 package List;
 
 /**
- * @author: Honghan Zhu
- * @leetcode: 21
- * @grade: easy
+ * @author Honghan Zhu
+ * @leetcode 21
+ * @grade easy
  */
 public class MergeTwoSortedLists {
     public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {

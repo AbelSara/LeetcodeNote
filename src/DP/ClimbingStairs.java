@@ -1,9 +1,9 @@
 package DP;
 
 /**
- * @author: Honghan Zhu
- * @leetcode: 70
- * @grade: easy
+ * @author Honghan Zhu
+ * @leetcode 70
+ * @grade easy
  */
 public class ClimbingStairs {
     public int climbStairs(int n) {

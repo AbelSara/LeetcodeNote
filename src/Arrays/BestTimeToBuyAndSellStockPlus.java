@@ -1,9 +1,9 @@
 package Arrays;
 
 /**
- * @author: Honghan Zhu
- * @leetcode: 122
- * @grade: easy
+ * @author Honghan Zhu
+ * @leetcode 122
+ * @grade easy
  */
 public class BestTimeToBuyAndSellStockPlus {
     public int maxProfit(int[] prices) {

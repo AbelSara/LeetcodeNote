@@ -1,4 +1,4 @@
-package String;
+package StringPack;
 
 /**
  * @author Honghan Zhu

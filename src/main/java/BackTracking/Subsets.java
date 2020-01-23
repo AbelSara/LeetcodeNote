@@ -1,4 +1,4 @@
-package Bit;
+package BackTracking;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

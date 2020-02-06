@@ -7,7 +7,7 @@ import java.util.Stack;
 /**
  * @Author Honghan Zhu
  * @leetcode 145
- * @grade medium
+ * @grade hard
  */
 public class BinaryTreePostorderTraversal {
     public List<Integer> postorderTraversal(TreeNode root) {

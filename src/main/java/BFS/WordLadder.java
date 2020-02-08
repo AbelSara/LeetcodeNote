@@ -1,4 +1,4 @@
-package BST;
+package BFS;
 
 import java.util.*;
 
@@ -16,10 +16,10 @@ public class WordLadder {
         beginSet.add(beginWord);
         Set<String> endSet = new HashSet<>();
         endSet.add(endWord);
-        return bst(patternMap, visited, 1, beginSet, endSet);
+        return bfs(patternMap, visited, 1, beginSet, endSet);
     }
 
-    private int bst(Map<String, Set<String>> patternMap, Set<String> visited,
+    private int bfs(Map<String, Set<String>> patternMap, Set<String> visited,
                     int level, Set<String> beginSet, Set<String> endSet) {
         Set<String> nextBeginSet = new HashSet<>();
         for (String str : beginSet) {
@@ -39,7 +39,7 @@ public class WordLadder {
             endSet = nextBeginSet;
             nextBeginSet = beginSet;
         }
-        return bst(patternMap, visited, level + 1, nextBeginSet, endSet);
+        return bfs(patternMap, visited, level + 1, nextBeginSet, endSet);
     }
 
     private Set<String> getSet(Map<String, Set<String>> map, String str) {

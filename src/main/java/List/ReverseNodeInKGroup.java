@@ -1,7 +1,5 @@
 package List;
 
-import java.util.List;
-
 /**
  * @Author Honghan Zhu
  * @leetcode 25

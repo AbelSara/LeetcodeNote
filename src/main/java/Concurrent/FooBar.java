@@ -2,7 +2,9 @@ package Concurrent;
 
 
 /**
- * Created by zhh on 2020/2/12.
+ * @Author Honghan Zhu
+ * @leetcode 1115
+ * @grade medium
  */
 public class FooBar {
     private int n;

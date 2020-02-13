@@ -43,6 +43,5 @@ public class LRUCache {
         cache.put(4, 1);
         System.out.println(cache.get(1));
         System.out.println(cache.get(2));
-
     }
 }

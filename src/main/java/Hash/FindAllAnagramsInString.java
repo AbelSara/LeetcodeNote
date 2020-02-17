@@ -45,8 +45,4 @@ public class FindAllAnagramsInString {
         }
         return res;
     }
-
-    public static void main(String[] args) {
-        new FindAllAnagramsInString().findAnagrams("bpaa", "aa");
-    }
 }

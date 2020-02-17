@@ -59,8 +59,4 @@ public class KthLargestElementInArray {
         nums[i] = nums[j];
         nums[j] = tmp;
     }
-
-    public static void main(String[] args) {
-        new KthLargestElementInArray().findKthLargest(new int[]{3, 2, 1, 5, 6, 4}, 2);
-    }
 }

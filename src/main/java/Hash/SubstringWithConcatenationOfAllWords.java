@@ -33,19 +33,6 @@ public class SubstringWithConcatenationOfAllWords {
                     curWords.put(val, times);
                     if (times == dict.get(val))
                         matches += 1;
-//                    while (times > dict.get(val)) {
-//                        String delectStr = s.substring(l, l + lenOfSingleWord);
-//                        if (curWords.containsKey(delectStr)) {
-//                            int delTimes = curWords.get(delectStr) - 1;
-//                            if (delTimes == dict.get(delectStr) - 1)
-//                                matches -= 1;
-//                            if (delTimes == 0)
-//                                curWords.remove(delectStr);
-//                        }
-//                        if (val == delectStr)
-//                            times -= 1;
-//                        l += lenOfSingleWord;
-//                    }
                 }
                 while (matches == needMathces && r - l + lenOfSingleWord >= lenOfWords) {
                     String str = s.substring(l, l + lenOfSingleWord);

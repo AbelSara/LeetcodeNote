@@ -27,8 +27,4 @@ public class RegularExpressionMatching {
         }
         return dp[s.length()][p.length()];
     }
-
-    public static void main(String[] args) {
-        System.out.println(new RegularExpressionMatching().isMatch("ab", ".*"));
-    }
 }

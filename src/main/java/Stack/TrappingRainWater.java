@@ -8,6 +8,11 @@ import java.util.Stack;
  * @grade hard
  */
 public class TrappingRainWater {
+    /**
+     * @description my method of stack
+     * @param height
+     * @return
+     */
     public int trap(int[] height) {
         int max = 0;
         int sum = 0;
@@ -45,11 +50,27 @@ public class TrappingRainWater {
             }
             max = Math.max(h, max);
         }
-        System.out.println(sum);
         return sum;
     }
 
-    public static void main(String[] args) {
-        new TrappingRainWater().trap(new int[]{9,8,9,5,8,8,8,0,4});
+    /**
+     * @description use dynamic process method
+     * @param height
+     * @return
+     */
+    public int trap2(int[] height) {
+        int[] heightOfLeft = new int[height.length];
+        int[] heightOfRight = new int[height.length];
+        for(int i = 1; i < height.length; i++)
+            heightOfLeft[i] = Math.max(heightOfLeft[i - 1], height[i - 1]);
+        for(int i = height.length - 2; i >= 0; i--)
+            heightOfRight[i] = Math.max(heightOfRight[i + 1], height[i + 1]);
+        int res = 0;
+        for(int i = 0; i < height.length; i++){
+            int minOfHeight = Math.min(heightOfLeft[i], heightOfRight[i]);
+            if(minOfHeight > height[i])
+                res += minOfHeight - height[i];
+        }
+        return res;
     }
 }

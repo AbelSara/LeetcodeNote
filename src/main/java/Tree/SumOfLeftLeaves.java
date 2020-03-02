@@ -13,10 +13,10 @@ public class SumOfLeftLeaves {
         return sum;
     }
 
-    private void order(TreeNode root, int flag){
-        if(root == null)
+    private void order(TreeNode root, int flag) {
+        if (root == null)
             return;
-        if(root.left == null && root.right == null && flag == 1)
+        if (root.left == null && root.right == null && flag == 1)
             sum += root.val;
         order(root.left, 1);
         order(root.right, 2);

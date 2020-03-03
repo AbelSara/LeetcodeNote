@@ -11,20 +11,20 @@ import java.util.List;
 public class BinaryTreePaths {
     public List<String> binaryTreePaths(TreeNode root) {
         List<String> res = new LinkedList<>();
-        if(root != null)
+        if (root != null)
             order(res, new StringBuilder(), root);
         return res;
     }
 
-    private void order(List<String> res, StringBuilder builder, TreeNode root){
+    private void order(List<String> res, StringBuilder builder, TreeNode root) {
         builder.append(root.val);
-        if(root.left == root.right){
+        if (root.left == root.right) {
             res.add(builder.toString());
         }
         builder.append("->");
-        if(root.left != null)
+        if (root.left != null)
             order(res, builder, root.left);
-        if(root.right != null)
+        if (root.right != null)
             order(res, builder, root.right);
         builder.delete(builder.length() - 3, builder.length());
     }

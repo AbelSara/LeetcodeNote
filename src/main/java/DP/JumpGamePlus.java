@@ -18,7 +18,7 @@ public class JumpGamePlus {
         for (int i = 0; i < len; i++) {
             int step = nums[i];
             if (i + step >= len)
-                step -= i + step - len - 1;
+                step -= i + step - len + 1;
             for (int j = step; j >= 0 && dp[i + j] > dp[i] + 1; j--) {
                 dp[i + j] = dp[i] + 1;
                 if (i + j == len - 1)

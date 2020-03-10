@@ -44,13 +44,4 @@ public class MaximalRectangle {
             ans = Math.max(ans, heights[stack.pop()] * (heights.length - stack.peek() - 1));
         return ans;
     }
-
-    public static void main(String[] args) {
-        new MaximalRectangle().maximalRectangle(new char[][]{
-                {'1', '0', '1', '0', '0'},
-                {'1', '0', '1', '1', '1'},
-                {'1', '1', '1', '1', '1'},
-                {'1', '0', '0', '1', '0'}
-        });
-    }
 }

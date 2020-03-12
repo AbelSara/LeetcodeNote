@@ -11,10 +11,6 @@ import java.util.Set;
  * @grade hard
  */
 public class WordSearchPlus {
-    public static void main(String[] args) {
-        new WordSearchPlus().findWords(new char[][]{{'a', 'a'}}, new String[]{"aaa"});
-
-    }
 
     public List<String> findWords(char[][] board, String[] words) {
         Set<String> set = new HashSet<>();

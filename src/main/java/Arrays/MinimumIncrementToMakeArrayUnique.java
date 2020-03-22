@@ -3,7 +3,9 @@ package Arrays;
 import java.util.Arrays;
 
 /**
- * Created by Albert on 2020/3/22.
+ * @author Honghan Zhu
+ * @leetcode 945
+ * @grade medium
  */
 public class MinimumIncrementToMakeArrayUnique {
     public int minIncrementForUnique(int[] A) {

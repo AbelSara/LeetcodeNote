@@ -6,15 +6,6 @@ package DFS;
  * @grade medium
  */
 public class AsFarFromLandAsPossibleWithDFS {
-    public static void main(String[] args) {
-        int[][] grid = new int[][]{
-                {1, 0, 0},
-                {0, 0, 0},
-                {1, 0, 0}
-        };
-        new AsFarFromLandAsPossibleWithDFS().maxDistance(grid);
-    }
-
     public int maxDistance(int[][] grid) {
         if (grid.length == 0)
             return -1;

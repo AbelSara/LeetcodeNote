@@ -10,18 +10,9 @@ import java.util.List;
  * @grade medium
  */
 public class PacificAtlanticWaterFlow {
-    public static void main(String[] args) {
-        int[][] mat = new int[][]{
-                {1, 2, 2, 3, 5},
-                {3, 2, 3, 4, 4},
-                {2, 4, 5, 3, 1},
-                {6, 7, 1, 4, 5},
-                {5, 1, 1, 2, 4}
-        };
-        new PacificAtlanticWaterFlow().pacificAtlantic(mat);
-    }
-
     public List<List<Integer>> pacificAtlantic(int[][] matrix) {
+        if(matrix.length == 0)
+            return new ArrayList<>();
         int m = matrix.length, n = matrix[0].length;
         int[][] arrived = new int[m][n];
         for (int i = 0; i < m; i++) {

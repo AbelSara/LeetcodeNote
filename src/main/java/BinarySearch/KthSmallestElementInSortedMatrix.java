@@ -35,7 +35,7 @@ public class KthSmallestElementInSortedMatrix {
                 else
                     r = mid;
             }
-            while(l < n && matrix[i][l] <= tar)
+            while (l < n && matrix[i][l] <= tar)
                 l++;
             res += l;
         }
